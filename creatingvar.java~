@@ -1,0 +1,27 @@
+public class creatingvar {
+  public static void main( String[ ] args) {
+    int x, y, age;
+    double second,  e, checking;
+    String firstname, lastname, title;
+    
+    x = 10; 
+    y = 20;
+    age = 12;
+    
+    second = 4.57;
+    e = 2. 71717162920082445;
+    checking = 1.23;
+    
+    firstname = "Emmanuel";
+    lastname = "Nimo";
+    title = "Mr.";
+    
+    
+    System.out.println("Let x contains" + x);
+    System.out.println("And y contains " + y);
+    System.out.println("Now take this" + age);
+    System.out.println("My name is" + firstname + lastname );
+  }
+}
+      
+      

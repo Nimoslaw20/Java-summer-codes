@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class squareMe {
+  public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+    
+    int receive ;
+    
+    System.out.println("Enter a number, No negatives, please!!");
+    receive = input.nextInt();
+    
+    While (receive < 0) {
+      System.out.println("Enter a positive number");
+      receive = input.nextInt():
+    }
+    
+    y = Math.sqrt(receive);
+    
+    System.out.println("The square root for " + receive + " is " + y);
+    
+  }
+}
+        

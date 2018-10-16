@@ -1,0 +1,25 @@
+import java.util.Scanner;
+//import java.io.File;
+//import java.io.FileNotFoundException;
+import static java.lang.System.out;
+
+class Roomassign {
+  public static void main(String[] args){
+    //throws FileNotFoundException {
+    
+    //Scanner input = new Scanner(new File("Rooms"));
+    Scanner input = new Scanner(System.in);
+    
+    out.println("Room/Guest");
+    
+    for (int rnum = 0; rnum <10; rnum++){
+      out.print(rnum);
+      out.print("\t");
+      //out.println(input.nextInt());
+      
+    input.close();
+      
+    }
+  }
+}
+    
